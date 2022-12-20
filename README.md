@@ -2,6 +2,12 @@
 A decentralized system for restaurant servers to log their orders and collect their tips in ETH!
 
 ## PROBLEM STATEMENT
+
+Surya Pranesh krishnan - 101442686
+Shantanu Ail - 
+Vishnu Sankar -
+
+## PROBLEM STATEMENT
 In the current scenario, we have seen that the tipping system is flawed. When we say flawed, it means that the server work the whole day, server the customers, get tipped and at the end of the day when it's time to collect their wages, it gets split amongst all the servers. We think this is unfair. When a certain server who is excellent at their work and manages to get more tips as compared to others who may not be so good with their customers ends up having to split their share with the rest seems wrong. The server has earned the tip because of their exceptional service. We are here to change how this thing works. 
 
 ## GOALS
@@ -41,7 +47,8 @@ A server takes the orders from the customers and serves them the food. Impressed
 - waiterToTip: This mapping is used to co-relate a particular server with their corresponding tips. 
 - withdrawTips: This function is used by the server to withdraw the tips earned by them.
 
-## DIAGRAM (FLOW, SYSTEM)
+## DIAGRAM (FLOW CHART)
+![TipMe Application](flowchart.jpeg "TipMe Application") <br/>
 
 ## TECH STACK
 - Programming languages: Solidity, Javascript
@@ -55,6 +62,7 @@ A server takes the orders from the customers and serves them the food. Impressed
 - React
 
 ## GANTT CHART – SIMPLE
+![TipMe Application](gaantchart.png "TipMe Application") <br/>
 
 
 # SMART CONTRACT
@@ -99,7 +107,7 @@ npm run dev
 
 
 #### Tip Management application : <br/>
-![TipMe Application](mainscreen.png "TipMe Application") <br/>
+![TipMe Application](appscreen.png "TipMe Application") <br/>
 
 
 #### Metamask wallet interaction: <br/>
