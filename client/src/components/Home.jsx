@@ -15,6 +15,7 @@ export default function Home() {
         leaderboard,
         withdrawTips,
         isLoading,
+        currentAccount,
     } = useContext(TipMeContext)
 
     useEffect(() => {
@@ -105,6 +106,16 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="leaderboard">
+                        <p className="title">Server Details : </p>
+                        <div className="eachData">
+                            <div className="transactionData">
+                                <strong>Waiter Address </strong>
+                                <span>{currentAccount}</span>
+                            </div>
+                            <button className="submitButton" onClick={() => withdrawTips()}>
+                                Withdraw tips
+                            </button>
+                        </div>
                         <p className="title">Waiters Leaderboard</p>
                         {leaderboard && leaderboard.length > 0 ? (
                             <React.Fragment>
@@ -114,18 +125,18 @@ export default function Home() {
                                         <div key={i} className="eachData">
                                             <div className="transactionData">
                                                 <strong>Waiter Address </strong>
-                                                <span>{waiterAddress}</span>
+                                                <span>
+                                                    {waiterAddress === currentAccount ? (
+                                                        <strong>waiterAddress</strong>
+                                                    ) : (
+                                                        waiterAddress
+                                                    )}
+                                                </span>
                                             </div>
                                             <div className="transactionData">
                                                 <strong>Tips of the day </strong>
                                                 <span>{tip}</span>
                                             </div>
-                                            <button
-                                                className="submitButton"
-                                                onClick={() => withdrawTips()}
-                                            >
-                                                Withdraw tips
-                                            </button>
                                         </div>
                                     )
                                 })}
