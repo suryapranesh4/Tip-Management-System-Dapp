@@ -1,7 +1,7 @@
 # TIP ME!
 A decentralized system for restaurant servers to log their orders and collect their tips in ETH!
 
-Application Demo : https://tip-dapp.onrender.com
+[Tip Dapp Application Demo](https://tip-dapp.onrender.com)
 
 ## CONTRIBUTORS
 
