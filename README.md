@@ -1,6 +1,8 @@
 # TIP ME!
 A decentralized system for restaurant servers to log their orders and collect their tips in ETH!
 
+Application Demo : https://tip-dapp.onrender.com
+
 ## CONTRIBUTORS
 
 Surya Pranesh Krishnan - 101442686 <br/>
